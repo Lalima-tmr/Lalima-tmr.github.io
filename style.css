@@ -390,11 +390,11 @@ section{
   
   .certificate .box-container .box .image .content {
     position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    left: 50;
+    bottom: 50;
+    right: 50;
     background-color: var(--light-bg);
-    padding: 1rem;
+    padding: 0.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -402,7 +402,7 @@ section{
   }
   
   .certificate .box-container .box .image .content h2 {
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--white);
     letter-spacing: 0.1rem;
     text-transform: uppercase;
