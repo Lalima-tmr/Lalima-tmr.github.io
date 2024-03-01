@@ -45,9 +45,9 @@ section{
     padding: 5rem 9%;
 }
 /* class always start with dot(.) symbol */
- @include (max-width: 1199.98px) {  
+ @media (min-width: 768px) and (max-width: 1199.98px {  
 .heading{
-    color: var(--white);
+    color: var(--yellow);
     font-size: 3rem;
     font-weight: 200;
     text-align: center;
