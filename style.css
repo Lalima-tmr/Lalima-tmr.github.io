@@ -45,14 +45,6 @@ section{
     padding: 5rem 9%;
 }
 /* class always start with dot(.) symbol */
- @media (min-width: 768px) and (max-width: 1199.98px) {  
-.container-fluid{
-    color: var(--yellow);
-    font-size: 3rem;
-    font-weight: 200;
-    text-align: center;
-    padding-bottom: 4rem;
-}
      .heading{
     color: var(--yellow);
     font-size: 3rem;
@@ -373,13 +365,14 @@ display: block;
   /* Certifications */
 .certificate .box-container .box .image {
     height: 30rem;
+     width: 50%; 
     overflow: hidden;
     position: relative;
   }
   
   .certificate .box-container .box .image img {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     object-fit: cover;
   }
   
@@ -437,7 +430,7 @@ display: block;
     background-color: var(--light-bg);
     border-radius: 50%;
     padding: 1rem;
-    margin: 0 1rem;
+    margin: 0.1rem;
     cursor: pointer;
   }
   
@@ -449,6 +442,7 @@ display: block;
   /* footer */
   
   /* media queries */
+
 @media (max-width: 1200px) {
     .header {
       padding: 3rem 2rem;
@@ -479,7 +473,7 @@ display: block;
       top: 6rem;
       left: 0;
       right: 0;
-      background-color: var(--white);
+      background-color: var(--yellow);
       display: flex;
       flex-direction: column;
       align-items: center;
