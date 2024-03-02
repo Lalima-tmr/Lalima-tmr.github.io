@@ -249,7 +249,7 @@ display: block;
   overflow: hidden;
   display: flex;
   /* align-items: center; */
-  /* justify-content: center; */
+ justify-content: center;
 }
 
 .about .box-container .box .image img {
@@ -279,13 +279,15 @@ display: block;
     letter-spacing: 0.1rem;
     line-height: 1.5;
     text-transform: none;
+      justify-content: center;
   }
 
   /* Add this to your existing styles */
 .about .box-container .box .social-links {
   display: flex;
-  gap: 1rem;
+  gap: 8rem;
   margin-top: 1rem;
+    justify-content: center;
 }
 
 .about .box-container .box .social-links a {
