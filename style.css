@@ -147,6 +147,13 @@ display: block;
 .home-text span:hover {
   color: #ff9900; /* Change to your desired hover color */
 }
+.footer {
+    position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #f0f0f0;
+  }
 .header{
     position: fixed;
     top: 0;
@@ -267,10 +274,20 @@ display: block;
   }
   
   .about .box-container {
+    background-color: var(--light-bg);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 4rem;
     margin-top: 4rem;
+  }
+.about .box-container .box h2 {
+    color: var(--dark-gray);
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-transform: none;
+      justify-content: center;
   }
   .about .box-container .box p {
     color: var(--dark-gray);
