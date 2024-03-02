@@ -5,14 +5,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Resume</title>
-   <!-- <meta name="description" content="My professional resume">-->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--make ur application responsive not distubuted-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <!-- Add any additional metadata or stylesheets here -->
+
 </head>
-    
+    <style>
+    #container {
+        position: relative;
+        height: 100vh; /* Set the height of the viewport */
+    }
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #f0f0f0; /* Optional background color */
+    }
+</style>
 <body style="background-color: pink;">
     <div class="container-fluid">
   <!-- Content here -->
@@ -37,7 +49,7 @@
         <p>This is my resume</p>
     <footer>
         <section class="contact" id="contact">
-      <div> 
+      <div class="container"> 
             <table>
                 <tr>
                     <td>Address: Bangalore, Karnataka</td>
@@ -77,109 +89,31 @@
       <div class="col">
         <div class="box">
           <span><i class="material-icons"> calendar_today </i> Feb 2024 - Present</span>
-          <h3><a href="https://www.awsacademy.com/vforcesite/LMS_Login">ICT Academy Training</a></h3>
+          <h3><a href="https://www.awsacademy.com/vforcesite/LMS_Login"><img class="mr-3" src="https://th.bing.com/th/id/OIP.2lNGYaa8HhnVGpKy0RutFgAAAA?rs=1&pid=ImgDetMain" width="20" height="20" alt="Generic placeholder image">ICT Academy Training</a></h3>
           <p class="university">AWS Academy Cloud Foundations</p>
         </div>
        <div class="col">
         <div class="box">
           <span><i class="material-icons"> calendar_today </i> Aug 2023 - Sep 2023</span>
-          <h3><a href="https://www.airobosoft.com/wp/">Artificial Intelligence & Machine Learning Trainee</a></h3>
+          <h3><a href="https://www.airobosoft.com/wp/"><img class="mr-3" src="https://avatars1.githubusercontent.com/u/66869709?s=200&v=4" width="20" height="20" alt="Generic placeholder image">Artificial Intelligence & Machine Learning Trainee</a></h3>
           <p class="university">AiRobosoft products and services</p>
         </div> 
         </div>
           <div class="col">
         <div class="box">
           <span><i class="material-icons"> calendar_today </i> Aug 2023 - Sep 2023</span>
-          <h3><a href="https://www.upskillcampus.com/">Data Science & Machine Learning Trainee</a></h3>
+          <h3><a href="https://www.upskillcampus.com/"><img class="mr-3" src="https://media.licdn.com/dms/image/C4D0BAQFRSUGt3tEO0w/company-logo_200_200/0/1672649984389?e=2147483647&v=beta&t=ZN33Sp5-3zYNYNOJp_KzrABv9PcNltzjSL3MUSbY6iM" width="20" height="20" alt="Generic placeholder image">Data Science & Machine Learning Trainee</a></h3>
           <p class="university">UpSkill campus and uniconverge technologies</p>
         </div> 
               <div class="box">
           <span><i class="material-icons"> calendar_today </i> Aug 2023 - Sep 2023</span>
-          <h3><a href="https://www.boltiot.com/" ><img class="mr-3" src="https://th.bing.com/th/id/OIP.dMEjpJ4z8mcGjij-jS1xTgHaHk?rs=1&pid=ImgDetMain" width="50" height="50" alt="Generic placeholder image">Internet of Thing & Machine Learning Trainee</a></h3>
+          <h3><a href="https://www.boltiot.com/" ><img class="mr-3" src="https://th.bing.com/th/id/OIP.dMEjpJ4z8mcGjij-jS1xTgHaHk?rs=1&pid=ImgDetMain" width="20" height="20" alt="Generic placeholder image">Internet of Thing & Machine Learning Trainee</a></h3>
           <p class="university">Bolt IoT </p>
         </div> 
         </div>
       </div>
     </div>
   </section>
-            
-<!-- <section class="experience" id="experience">
-        <h1 class="heading"><span>Experience</span></h1>
-          
-       <div class="col-container bg-dark">
-      <div class="col">
-        <div class="box">
-          <span><i class="material-icons"> calendar_today </i> Nov 2020 - Present</span>
-          <h3>ICT Academy Training</h3>
-          <p class="university">AWS Academy Cloud Foundations</p>
-        </div>
-      </div>
-           <div class="col">
-        <div class="box">
-          <span><i class="material-icons"> calendar_today </i> Aug 2023 - Sep 2023</span>
-          <h3>Artificial Intelligence & Machine Learning Trainee</h3>
-          <p class="university">AiRobosoft products and services</p>
-        </div>
-      </div>
-    </div>
-        
-        <table> 
-                <div class="box">    
-             <tr class="list-inline-item">
-               <td> 
-                   <nav class="navbar navbar-light bg-light">
-                      <a class="navbar-brand" href="https://www.airobosoft.com/wp/">
-                        <img src="https://avatars1.githubusercontent.com/u/66869709?s=200&v=4" width="150" height="150" class="d-inline-block align-top" alt="">
-                      </a>
-               </td>
-                 <td> 
-                   <div class="media-body">
-                      <h5 class="mt-0 mb-1">Artificial Intelligence & Machine Learning Trainee</h5>
-                        <p>Duration: Aug,2023 - Sep,2023 </p>
-                        AiRobosoft products and services
-                   </div>
-               </td>
-                </nav>
-              </tr>
-                </div>
-                <div class="box">   
-              <tr class="media my-4">
-               <td> 
-                   <nav class="navbar navbar-light bg-light">
-                       <a class="navbar-brand" href="https://www.upskillcampus.com/">
-                   <img class="mr-3" src="https://media.licdn.com/dms/image/C4D0BAQFRSUGt3tEO0w/company-logo_200_200/0/1672649984389?e=2147483647&v=beta&t=ZN33Sp5-3zYNYNOJp_KzrABv9PcNltzjSL3MUSbY6iM" width="150" height="150" alt="Generic placeholder image">
-                       </a></td>
-               <td> 
-                   <div class="media-body">
-                      <h5 class="mt-0 mb-1">Data Science & Machine Learning Trainee</h5>
-                        <p>Duration: Aug,2023 - Sep,2023 </p>
-                        UpSkill campus and uniconverge technologies
-                    </div>
-                   </td>
-                  </nav>
-              </tr>
-                </div>
-                  <div class="box">  
-             <tr class="media">
-               <td>
-                   <nav class="navbar navbar-light bg-light">
-                       <a class="navbar-brand" href="https://www.boltiot.com/">
-                   <img class="mr-3" src="https://th.bing.com/th/id/OIP.dMEjpJ4z8mcGjij-jS1xTgHaHk?rs=1&pid=ImgDetMain" width="150" height="150" alt="Generic placeholder image">
-                       </a> </td> 
-                <td> 
-                    <div class="media-body">
-                      <h5 class="mt-0 mb-1">Internet of Thing & Machine Learning Trainee</h5>
-                        <p>Duration: Aug,2023 - Sep,2023 </p>
-                        Bolt IoT 
-                    </div>
-                </td>
-                 </nav>
-              </tr>
-                  </div>
-            </ul>
-            </div>
-         </table>
-    </section> -->
 
     <section class="resume" id="resume">
     <h1 class="heading"><span>Education</span></h1>
