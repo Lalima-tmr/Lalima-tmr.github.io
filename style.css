@@ -361,6 +361,59 @@ display: block;
     text-transform: capitalize;
   }
   /* resume */
+/* Experience */
+.education .col-container .col .box {
+    background-color: var(--light-bg);
+    padding: 2.5rem;
+    margin: 2rem 0;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .education .col-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 4rem;
+  }
+  
+  .education .col-container .col h2 {
+    font-size: 2.5rem;
+    color: var(--white);
+    font-weight: 200;
+    padding-bottom: 2rem;
+  }
+  
+  .education .col-container .col .box span {
+    color: var(--white);
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .education .col-container .col .box span i {
+    padding-right: 0.5rem;
+    font-size: 1.7rem;
+  }
+  
+  .education .col-container .col .box h3 {
+    color: var(--yellow);
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+  }
+  
+  .education .col-container .col .box p {
+    font-size: 1.7rem;
+    color: var(--dark-gray);
+    margin-top: 1rem;
+    line-height: 1.5;
+    text-transform: none;
+  }
+  
+  .education .col-container .col .box .university {
+    color: var(--light-gray);
+    text-transform: capitalize;
+  }
+/* Experience */
 
   /* Certifications */
 .certificate .box-container .box .image {
@@ -580,7 +633,7 @@ display: block;
 
 .contact .col-container .col input,
 .contact .col-container .col textarea {
-  background-color: var(--light-bg);
+  background-color: var(--dark-gray);
   width: 100%;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
