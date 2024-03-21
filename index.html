@@ -1,218 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio website Design</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--make ur application responsive not distubuted-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <link rel="stylesheet" href="style.css">
-
 </head>
-    <style>
-    #footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-        /*background-color: #f0f0f0; Optional background color */
-    }
-</style>
-<body style="background-color: pink;">
-    <div class="container-fluid">
-  <!-- Content here -->
 
-<header class="header">
-        <a><i class="menu material-icons"> menu </i></a>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        
+        <i class='bx bx-menu' id="menu-icon"></i>
+
         <nav class="navbar">
-            <a href="#">home</a>
-            <a href="#about">about</a>     
-            <a href="#resume">resume</a>
-            <a href="#resume">experience </a>
-            <a href="#certificate">certifications</a>
-            <a href="#project">project</a>
-            <a href="#contact">contact</a>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    </div> 
-            <section class="home" id="home">
-        <h1 class="home-text">Hey, It's me<br>
-        <span><b>Lalima<b></span>
-        </h1>
-        <p>This is my resume</p>
-    </section>
-            
-    <section class="about" id="about" style="background-color: light-gray;" >
-        <div class="box">
-            <h1 class="heading">About <span>me</span></h1>
-            <h2 style="color: rgb(38, 184, 152); text-align: center;">Aspiring Web Developer | Passionate Coder | Fresher </h2>
-            <div class="col-container">
-            <p style="text-transform: none">
-                Hi, My name is Lalima and I am a final year student pursuing a degree in Information Science and Engineering at Visvesvaraya Technological University. <br>
-                I am writing to introduce myself and share my experience and skills. 
-                Through my three internships, I have gained hands-on experience in Artificial Intelligence, Machine Learning, Data Science, and the Internet of Things. Additionally, I am currently expanding my knowledge by learning web development at SpartaCoding Club. 
-                I love working on innovative projects and collaborating with dynamic teams. I believe that hard work and determination can help anyone achieve their goals. <br>
 
-                Thank you for taking the time to read my message! 
-            </p>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hey, It's Me</h3>
+            <h1>Lalima</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>............</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bx-envelope'></i></a>
+                <a href="#"><i class='bx bxs-phone-call'></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
         </div>
+
+        <div class="home-img">
+            <img src="home.jpg" alt="">
         </div>
+
     </section>
 
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.jpg" alt="">
+        </div>
 
-    <section class="resume" id="resume">
-    <h1 class="heading"><span>Experience </span></h1>
-    <div class="col-container">
-      <div class="col">
-        <div class="box">
-          <span><i class="material-icons"> calendar_today </i> Feb 2024 - Present</span>
-          <h3><a href="https://www.awsacademy.com/vforcesite/LMS_Login"><img class="mr-3" src="https://th.bing.com/th/id/OIP.2lNGYaa8HhnVGpKy0RutFgAAAA?rs=1&pid=ImgDetMain" width="20" height="20" alt="Generic placeholder image">ICT Academy Training</a></h3>
-          <p class="university">AWS Academy Cloud Foundations</p>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>.............................................</p>
+            <a href="#" class="btn">Read More</a>
         </div>
-       <div class="col">
-        <div class="box">
-          <span><i class="material-icons"> calendar_today </i> Aug 2023 - Sep 2023</span>
-          <h3><a href="https://www.airobosoft.com/wp/"><img class="mr-3" src="https://avatars1.githubusercontent.com/u/66869709?s=200&v=4" width="20" height="20" alt="Generic placeholder image">Artificial Intelligence & Machine Learning Trainee</a></h3>
-          <p class="university">AiRobosoft products and services</p>
-        </div> 
-        </div>
-          <div class="col">
-        <div class="box">
-          <span><i class="material-icons"> calendar_today </i> Aug 2023 - Sep 2023</span>
-          <h3><a href="https://www.upskillcampus.com/"><img class="mr-3" src="https://media.licdn.com/dms/image/C4D0BAQFRSUGt3tEO0w/company-logo_200_200/0/1672649984389?e=2147483647&v=beta&t=ZN33Sp5-3zYNYNOJp_KzrABv9PcNltzjSL3MUSbY6iM" width="20" height="20" alt="Generic placeholder image">Data Science & Machine Learning Trainee</a></h3>
-          <p class="university">UpSkill campus and uniconverge technologies</p>
-        </div> 
-              <div class="box">
-          <span><i class="material-icons"> calendar_today </i> Aug 2023 - Sep 2023</span>
-          <h3><a href="https://www.boltiot.com/" ><img class="mr-3" src="https://th.bing.com/th/id/OIP.dMEjpJ4z8mcGjij-jS1xTgHaHk?rs=1&pid=ImgDetMain" width="20" height="20" alt="Generic placeholder image">Internet of Thing & Machine Learning Trainee</a></h3>
-          <p class="university">Bolt IoT </p>
-        </div> 
-        </div>
-      </div>
-    </div>
-  </section>
 
-    <section class="resume" id="resume">
-    <h1 class="heading"><span>Education</span></h1>
-    <div class="col-container">
-      <div class="col">
-        <div class="box">
-          <span><i class="material-icons"> calendar_today </i> Nov 2020 - Present</span>
-          <h3>Bachelor of Engineering(ISE)</h3>
-          <p>
-            Visvesvaraya Technological University , Bangalore, Karnataka
-          </p>
-          <p class="university">VTU, Karnataka</p>
-        </div>
-       <div class="col">
-        <div class="box">
-          <span><i class="material-icons"> calendar_today </i> Feb 2024 - Present</span>
-          <h3>Web Developer Course</h3>
-          <p class="university">Sparta Coding Club</p>
-        </div> 
-        </div>
-      </div>
-    </div>
-        <a href="https://drive.google.com/file/d/1Ioc8GUdpPRgxcbzoLkKJAwnx_7c0NpdU/view?usp=sharing" target="_blank" class="btn">Download Resume</a>
-  </section>
-
-   <section id="certificate">
-        <h1 class="heading"><span>Certifications</span></h1>
-        <table>
-           
-            <tr>  
-                  <td>
-                     <a href="https://drive.google.com/file/d/1f4-pAxOSXNx89XIdQAmRh4my1ZzrJhmT/view?usp=sharing"> <img src="Images\certificate1.png" width="640" height="440"/> </a>
-                      <p><imgcaption class="figure-caption">Certifications #1</imgcaption></p>
-                   </td> 
-                <td>
-                     <a href="https://drive.google.com/file/d/17jJytb1N2BM9W8ejgxTwqE41iNZjbw-z/view?usp=sharing"> <img src="Images\certificate2.jpg" width="640" height="440" /> </a>
-                     <p><imgcaption class="figure-caption">Certifications #2</imgcaption> </p>   
-                    </td>
-                </tr>
-            <tr>
-                 <td>
-                   <a href="https://drive.google.com/file/d/13MvjAfdL6Az9TjexF_PgtwSkSdBGgMKY/view?usp=sharing"> <img src="Images\certificate3.png" width="640" height="440"/></a>
-                         <p><imgcaption class="figure-caption">Certifications #3</imgcaption></p>
-                  </td> 
-                 <td>
-                      <a href="https://drive.google.com/file/d/1wlh1nd-3LH8vmxv7F9Hndt_74bjfX1yn/view?usp=sharing"> <img src="Images\certificate5.png" width="640" height="440" /></a>
-                      <p><imgcaption class="figure-caption">Certifications #4</imgcaption></p>
-                    </td>
-                    <td>
-                </tr>
-                <tr>
-                  <td>
-                      <a href="https://drive.google.com/file/d/1w9iNOtujAa9pZlXSPnV9EbtTl5PIRzT3/view?usp=sharing"> <img src="Images\certificate6.png" width="640" height="440"/></a>
-                       <p><imgcaption class="figure-caption">Certifications #5</imgcaption></p> 
-                   </td>
-                 <td>
-                      <a href="https://drive.google.com/file/d/1f4-pAxOSXNx89XIdQAmRh4my1ZzrJhmT/view?usp=sharing"> <img src="Images\certificate7.png" width="640" height="440"/> </a>
-                      <p><imgcaption class="figure-caption">Certifications #6</imgcaption></p>
-                   </td>
-            </tr>
-                <tr>
-                   <td>
-                       <a href="https://drive.google.com/file/d/1f4-pAxOSXNx89XIdQAmRh4my1ZzrJhmT/view?usp=sharing"> <img src="Images\certificate8.png" class="rounded float-left" width="640" height="440"/></a>
-                      <p><imgcaption class="figure-caption-left">Certifications #7</imgcaption></p>
-                    </td>
-                    <td>
-                      <a href="https://drive.google.com/file/d/1f4-pAxOSXNx89XIdQAmRh4my1ZzrJhmT/view?usp=sharing"> <img src="Images\certificate4.png" width="640" height="440"/></a>
-                      <p><imgcaption class="figure-caption-left">Certifications #8</imgcaption></p>
-                    </td>
-            </tr> 
-        </table>
     </section>
 
-<section class="project" id="project">
-    <h1 class="heading"><span>Project</span></h1>
-    <table>
-    <div class="col-container">
-        <tr>
-       <td>
-           <div class="col">
-            <div class="box">
-                <span><i class="material-icons"> calendar_today </i> Aug 2023 - Sept 2023 </span>
-                <h3>Prediction of Agriculture Crop Production In India</h3>
-                <p>
-                  The project "Prediction of Agriculture Crop Production in India" aims to leverage data science and machine learning to provide</br> 
-                    accurate predictions for crop production, ultimately contributing to better agricultural decision-making, resource allocation, and food security in India.
-                </p>
-                <p class="university">upSkill Campus</p>
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
 
-            <h3>technologies used</h3>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxs-webcam'></i>
+                <h3>Web Development</h3>
+                <p>...................................</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
 
-                <ul>
-                  <p>Data Science</p>
-                  <p>Machine-Learning</p>
-                </ul>
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>...................................</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>...................................</p>
+                <a href="#" class="btn">Read More</a>
             </div>
         </div>
-           </td>
-            </tr>
-    </div>
-        </table>
-</section>
+    </section>
 
-<section class="footer" id="footer">
-  <div class="socials">
-<!--       <ion-icon name="call-outline"></ion-icon> -->
-    <a href="tel:6205733996" target="_blank" rel="noopener noreferrer"><ion-icon name="call-outline" width="40" height="40"></ion-icon></a>
-<!--     <a href="tel:6205733996" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-phone" width="40" height="40"></ion-icon></a> -->
-    <a href="#" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-google" width="40" height="40"></ion-icon></a>
-    <a href="#" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-twitter" width="40" height="40"></ion-icon></a>
-    <a href="https://www.linkedin.com/in/lalima-singh015" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-linkedin" width="40" height="40"></ion-icon></a>
-    <a href="https://github.com/Lalima-tmr" target="_blank" rel="noopener noreferrer"><ion-icon name="logo-github" width="40" height="40"></ion-icon></a>
-</div>
-  </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
 
-            <script defer src="script/script.js"></script>
-            <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-              <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-            
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="about.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>About Project......</p>
+                    <p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="about.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>About Project......</p>
+                    <p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="about.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>About Project......</p>
+                    <p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="about.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>About Project......</p>
+                    <p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="about.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>About Project......</p>
+                    <p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="about.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>About Project......</p>
+                    <p>
+                        <a href="#"><i class='bx bx-link-external'></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Lalima | All Right Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
-    
