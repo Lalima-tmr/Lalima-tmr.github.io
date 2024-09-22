@@ -1,148 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Personal Portfolio website Design</title>
-
+    <title>My Portfolio</title>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 
-<!---------------Body Section--------------------->
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        
-        <i class='bx bx-menu' id="menu-icon"></i>
-
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Experience</a>
-            <a href="#portfolio">Project</a>
-            <a href="#cerificate">Certificate</a>
-            <a href="#contact">Contact</a>
+    <header>
+        <nav>
+            <div class="name">Lalima kumari</div>
+            <div class="link">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#Projects">Projects</a>
+                <a href="#certificate">Certificate</a>
+                <a href="#contact">Contact</a>
+            </div>
         </nav>
     </header>
-
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hey, It's Me</h3>
-            <h1>Lalima</h1>
-            <h3>And I'm a <span class="multiple-text"></span></h3>
-            <p>............</p>
+     
+    <!-- HOME SECTION -->
+    <section id="home">
+        <div class="profile home-img">
+            <img src="./Images/pic4.jpg" alt="profile">
+        </div>
+        <div class="profile home-content">
+            <h1>Lalima Kumari</h1>
+            <h3>Bachelor of Engineering <br> In <br><span class="multiple-text">Information Science & Engineering</span></h3>
+            <p>At Visvesvaraya Technological University, Bengaluru <br> 2020 - 24</p>
             <div class="social-media">
                 <a href="mailto:lalimak05@gmail.com"><i class='bx bx-envelope'></i></a>
                 <a href="tel:+6205733996"><i class='bx bxs-phone-call'></i></a>
-                <a href="https://www.linkedin.com/in/lalima-singh015"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/lalima-singh015/"><i class="bx bxl-linkedin"></i></a>
                 <a href="https://github.com/Lalima-tmr"><i class='bx bxl-github'></i></a>
             </div>
             
-            <a href="https://drive.google.com/file/d/1hEl_4jNdJNRdB0PQtb2tri6LxyxnFGPj/view?usp=sharing" class="btn">Download CV</a>
-        </div>
-
-        <div class="home-img">
-            <img src="images/about.jpg" alt="">
+            <a href="https://drive.google.com/file/d/1hEl_4jNdJNRdB0PQtb2tri6LxyxnFGPj/view?usp=drive_link" class="btn">Download CV</a>
         </div>
     </section>
 
-<!--about section-->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/about.jpg" alt="">
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="profile abt-img">
+            <img src="./Images/pic4.jpg" alt="profile">
         </div>
-
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Java Full Stack Developer</h3>
-            <h4>Hello!<br>
-                I'm Lalima
-            </h4>
-            <p>Passionate and dedicated full stack developer, recently graduated and eager to dive into the world of web development.<br>
-                With a strong foundation in both front-end and back-end technologies, I am excited to create dynamic, <br>
-                user-friendly web applications that solve real-world problems.</p>
-            <a href="#" class="btn">Read More</a>
+        <div class="profile home-content">
+            <h1 class="heading">Java Full <span>Stack Developer</span></h1>
+            <h3>Hello!<br> I'm Lalima</h3>
+            <p>Passionate and dedicated full stack developer, recently graduated and eager to dive into the world of web development. With a strong foundation in both front-end and back-end technologies, I am excited to create dynamic, user-friendly web applications that solve real-world problems.</p>
         </div>
     </section>
 
-    <!-------------------Experience section--------------------------->
-    <section class="services" id="services">
-        <h2 class="heading">My <span>Experience</span></h2>
-
+    <!-- SKILLS SECTION -->
+    <section class="services" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
         <div class="services-container">
             <div class="services-box">
                 <i class='bx bx-code-alt'></i>
-                <h3>Backend JAVA</h3>
-                <p>Core Java Concepts: OOPs Concepts like inheritance, polymorphisms, abstraction and encapsulation, as well as basic constructs like conditions, loops and data types.<br>
-                    Arrays: An important data structure in java.<br>
-                    JVM: A critical component of JAVA platform that provides a platform-independent environment for running java applications.<br>
-                    JRE: An important part of executing java programs.<br>
-                    Data Structure: Basic data structures like the Stack, linked list, queue, array, tree, and graph.<br>
-                    Garbage Collection: Elementary knowledge.
-                </p>
-                <a href="#" class="btn">Read More</a>
+                <h3>Backend</h3>
+                <h3>JAVA</h3> <br>
+                <ul style="text-align: justify;">
+                    <li>Core Java Concepts: OOPs Concepts like inheritance, polymorphisms, abstraction and encapsulation, as 
+                        well as basic constructs like conditions, loops and data types.</li>
+                    <li>Arrays: An important data structure in java.</li>
+                    <li>JVM: A critical component of JAVA platform that provides a platform-independent environment for 
+                        running java applications.</li>
+                    <li>JRE: An important part of executing java programs.</li>
+                    <li>Data Structure: Basic data structures like the Stack, linked list, queue, array, tree, and graph.</li>
+                    <li>Garbage Collection: Elementary knowledge.</li>
+                </ul>
             </div>
 
             <div class="services-box">
                 <i class="bx bx-code-alt"></i>
-                <h3>Frontend HTML CSS & JAVASCRIPT</h3>
-                <p>Text formatting tags and CSS Text formatting<br>
-                    Media tags & Hyper Links<br>
-                    Tables, Forms & Input tags<br>
-                    CSS Decorations (Background Properties, Animations & Display Properties)<br>
-                    JS Operators, Functions, Object, String & Array<br>
-                    BOM: Events, Popup's & Timing Functions<br>
-                    DOM Manipulation
-                </p>
-                <a href="#" class="btn">Read More</a>
+                <h3>Frontend</h3>
+                <h3>HTML CSS & JAVASCRIPT</h3> <br>
+                <ul style="text-align: justify;">
+                    <li>Text formatting tags and CSS Text formatting</li>
+                    <li>Media tags & Hyper Links</li>
+                    <li>Tables, Forms & Input tags</li>
+                    <li>CSS Decorations (Background Properties, Animations & Display Properties)</li>
+                    <li>JS Operators, Functions, Object, String & Array</li>
+                    <li>BOM: Events, Popup's & Timing Functions</li>
+                    <li>DOM Manipulation</li>
+                </ul>
             </div>
 
             <div class="services-box">
                 <i class="bx bx-code-alt"></i>
-                <h3>Database SQL</h3>
-                <p>Familiar with of SQL Statements, Data Integrity, and Normalization.<br>
-                    Working knowledge of Joins, SQL Queries, Sub-Queries, and SQL Functions.<br>
-                    Basic knowledge of Co-related Subqueries.
-                </p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-        </div>
-        <div class="services-container">
-            <div class="services-box">
-                <i class='bx bx-code-alt'></i>
-                <h3>Artificial Intelligence & Machine Learning Trainee</h3>
-                <p>I developed and implemented AI algorithms to improve project accuracy. Analyzed large datasets to build machine-learning projects, optimized algorithms for better performance and improved project accuracy using various modules and tools like Jupyter and PyCharm.</p>
-                <a href="https://www.linkedin.com/company/airobosoft-products-and-services/?originalSubdomain=in" class="btn">Read More</a>
-            </div>
-
-            <div class="services-box">
-                <i class="bx bx-code-alt"></i>
-                <h3>Data Science & Machine Learning Trainee</h3>
-                <p>As a Data Science and Machine Learning Intern at upSkill Campus, I created applications, optimized algorithms, and prototyped machine learning apps. I also used artificial intelligence and machine learning algorithms to develop new products and improve existing ones. To stay current, I studied new technologies and used tools like Python, Jupyter, and GitHub for collaboration and version control.</p>
-                <a href="https://www.linkedin.com/company/upskillcampus/" class="btn">Read More</a>
-            </div>
-
-            <div class="services-box">
-                <i class="bx bx-code-alt"></i>
-                <h3>Internet of Thing & Machine Learning Trainee</h3>
-                <p>During my internship, I gained a comprehensive understanding of IoT systems. Specifically, I developed skills in architecture, protocols, and communication technologies, as well as designing and building robust and scalable systems. Additionally, I learned how to collect, store, and process sensor data from different sources and worked on several machine learning projects for IoT applications.</p>
-                <a href="https://www.linkedin.com/company/inventrom/?originalSubdomain=in" class="btn">Read More</a>
+                <h3>Database</h3>
+                <h3>SQL</h3> <br>
+                <ul style="text-align: justify;">
+                    <li>Familiar with of SQL Statements, Data Integrity, and Normalization.</li>
+                    <li>Working knowledge of Joins, SQL Queries, Sub-Queries, and SQL Functions.</li>
+                    <li>Basic knowledge of Co-related Subqueries.</li>
+                </ul>
             </div>
         </div>
     </section>
 
-    <!--Project Section-->
-    <section class="portfolio" id="portfolio">
+    <!-- PROJECT SECTION -->
+    <section class="project" id="Projects">
         <h2 class="heading">Latest <span>Project</span></h2>
 
-        <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="images/prj1.png" alt="">
-                <div class="portfolio-layer">
+        <div class="project-container">
+            <div class="project-box">
+                <img src="./images/AI-in-agriculture.jpg" alt="" height="400px">
+                <div class="project-layer">
                     <h4>Prediction of Agriculture Crop Production In India</h4>
                     <p>Aims to leverage data science and machine learning to provide accurate predictions for crop production, ultimately contributing to better agricultural decision-making, resource allocation, and food security in India.</p>
                     <p>
@@ -151,9 +117,9 @@
                 </div>
             </div>
 
-            <div class="portfolio-box">
-                <img src="images/prj2.jpg" alt="">
-                <div class="portfolio-layer">
+            <div class="project-box">
+                <img src="./images/Home Automation App.jpg" alt="" height="400px">
+                <div class="project-layer">
                     <h4>Home Automation App</h4>
                     <p>I have undertaken the development of a 'Home Automation Application' project utilizing the Bolt IoT Cloud platform to provide modern and convenient solutions for home automation.</p>
                     <p>
@@ -162,9 +128,9 @@
                 </div>
             </div>
 
-            <div class="portfolio-box">
-                <img src="images/prj3.png" alt="">
-                <div class="portfolio-layer">
+            <div class="project-box">
+                <img src="./images/Billboard song scrapper.jpg" alt="" height="400px">
+                <div class="project-layer">
                     <h4>Billboard song scrapper</h4>
                     <p>I have just extracted the rank, song title, and singer details of 50 songs from the Billboard song scraper.</p>
                     <p>
@@ -172,50 +138,16 @@
                     </p>
                 </div>
             </div>
-
-           <!-- <div class="portfolio-box">
-                <img src="about.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>About Project......</p>
-                    <p>
-                        <a href="#"><i class='bx bx-link-external'></i></a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="about.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>About Project......</p>
-                    <p>
-                        <a href="#"><i class='bx bx-link-external'></i></a>
-                    </p>
-                </div>
-            </div>
-
-            <div class="portfolio-box">
-                <img src="about.jpg" alt="">
-                <div class="portfolio-layer">
-                    <h4>Web Design</h4>
-                    <p>About Project......</p>
-                    <p>
-                        <a href="#"><i class='bx bx-link-external'></i></a>
-                    </p>
-                </div>
-            </div> -->
         </div>
     </section>
 
-
-<!--Cerificate Section-->
-<section class="cerificate" id="cerificate">
-    <h2 class="heading">Latest <span>Certifications</span></h2>
+    <!-- CERTIFICATION SECTION -->
+    <section class="certificate" id="certificate">
+        <h2 class="heading">Latest <span>Certifications</span></h2>
 
     <div class="cerificate-container">
         <div class="cerificate-box">
-            <img src="images/img1.png" alt="">
+            <img src="https://drive.google.com/file/d/19KgmGdQUjzw0fx65WaSb4c9O6NkJMb_f/view?usp=sharing" alt="">
             <div class="cerificate-layer">
                 <h4>Certification of completion</h4>
                 <p>AWS Academy Graduate - AWS Academy Cloud Foundations</p>
@@ -226,7 +158,7 @@
         </div>
 
         <div class="cerificate-box">
-            <img src="images/img2.png" alt="">
+            <img src="https://drive.google.com/file/d/1rr5GMXCTH9vNtT66zv_PiQampIm9xHKF/view?usp=sharing" alt="">
             <div class="cerificate-layer">
                 <h4>Certification of completion</h4>
                 <p>Sparta Coding Club - 01 Frontend Web Development Basics</p>
@@ -237,7 +169,7 @@
         </div>
 
         <div class="cerificate-box">
-            <img src="images/img3.png" alt="">
+            <img src="https://drive.google.com/file/d/13MvjAfdL6Az9TjexF_PgtwSkSdBGgMKY/view?usp=sharing" alt="">
             <div class="cerificate-layer">
                 <h4>Certificate of Internship</h4>
                 <p>Data Science And Machine Learning</p>
@@ -248,7 +180,7 @@
         </div>
 
         <div class="cerificate-box">
-            <img src="images/img4.png" alt="">
+            <img src="https://drive.google.com/file/d/1rr5GMXCTH9vNtT66zv_PiQampIm9xHKF/view?usp=sharing" alt="">
             <div class="cerificate-layer">
                 <h4>Certificate of Internship</h4>
                 <p>Artificial Intelligence And Machine Learning</p>
@@ -259,7 +191,7 @@
         </div>
 
         <div class="cerificate-box">
-            <img src="images/img5.png" alt="">
+            <img src="https://drive.google.com/file/d/1w9iNOtujAa9pZlXSPnV9EbtTl5PIRzT3/view?usp=sharing" alt="">
             <div class="cerificate-layer">
                 <h4>Certificate of Internship</h4>
                 <p>Internet of Things And Machine Learning</p>
@@ -270,7 +202,7 @@
         </div>
 
         <div class="cerificate-box">
-            <img src="images/img6.png" alt="">
+            <img src="https://drive.google.com/file/d/11P8PJXOEMX6DHXP21PQLunXGjMwyfHpe/view?usp=sharing" alt="">
             <div class="cerificate-layer">
                 <h4>Certification of Training completion</h4>
                 <p>Data Analytics and Cloud Computing</p>
@@ -280,90 +212,52 @@
             </div>
         </div>
     </div>
-</section>
+    </section>
 
-<!---->
-
-<!--Achievement Section-->
-<!--<section class="cerificate" id="cerificate">
-    <h2 class="heading">My <span>Achievement</span></h2>
-
-    <div class="cerificate-container">
-        <div class="cerificate-box">
-            <img src="images\achievement.png" alt="">
-            <div class="cerificate-layer">
-                <h4>achievement</h4>
-                <p>aws-academy-graduate-aws-academy-cloud-foundations</p>
-                <p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </p>
-            </div>
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2 class="heading">Contact <span>Us</span></h2>
+        <div class="contact">
+            <form>
+                <div class="container">
+                    <div>
+                        <label for="name">Name</label>
+                    </div>
+                    <div>
+                        <input id="name" type="text" placeholder="lali" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input id="email" type="email" placeholder="lali015@gmail.com" required>
+                    </div>
+                    <div>
+                        <label for="phone">Mobile</label>
+                    </div>
+                    <div>
+                        <input id="phone" type="tel" placeholder="6205733996" required>
+                    </div>
+                    <div>
+                        <label for="comment">Comment</label>
+                    </div>
+                    <div>
+                        <input id="comment" type="text" placeholder="Write your comment here!" required>
+                    </div>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
         </div>
-
-        <div class="cerificate-box">
-            <img src="images\img7.png" alt="">
-            <div class="cerificate-layer">
-                <h4>Web Design</h4>
-                <p>About Project......</p>
-                <p>
-                    <a href="#"><i class='bx bx-link-external'></i></a>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>-->
-
-    <!--contact section design-->
-    <!--<section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-
-        <form action="#">
-            <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email Address">
-            </div>
-            <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
-    </section>-->
-    <section class="contact" id="contact">
-        <h2 class="heading">Contact <span>Me!</span></h2>
-    
-        <form action="contact.php" method="post">
-            <div class="input-box">
-                <input type="text" name="fullname" placeholder="Full Name" required>
-                <input type="email" name="email" placeholder="Email Address" required>
-            </div>
-            <div class="input-box">
-                <input type="text" name="phone" placeholder="Mobile Number" required>
-                <input type="text" name="subject" placeholder="Email Subject" required>
-            </div>
-            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
-            <input type="submit" value="Send Message" class="btn">
-        </form>
     </section>
     
-
-<!--footer section design-->
-    <footer class="footer">
-        <div class="footer-text">
-            <p>Copyright &copy; 2024 by Lalima | All Right Reserved</p>
+    <!-- Footer Section -->
+    <section id="footer">
+        <div class="arrow1">
+            Copyright © 2024 by Lalima | All Right Reserved
         </div>
-
-        <div class="footer-iconTop">
-            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        <div class="arrow2">
+            <a href="#home"><img src="./images/drawn-arrow-png.png"></a>
         </div>
-    </footer>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <script src="script.js"></script>
+    </section>
 </body>
-
 </html>
